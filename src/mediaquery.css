@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1239px) {
+   .chatgpt-sidebar-container{
+       display: none;
+   }
+   .toggle-icon-fulldevice-sidebar{
+    display: none!important;
+   }
+   .toggle-icon-smalldevice-sidebar{
+    display: block!important;
+   }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .chat-gpt-logo-right{
+        display: none!important;
+    }
+    .chatgpt-mainbody-search{
+        width: 100%;
+    }
+    .chatgpt-mainbody-search-box-and-search-suggestion{
+        width: 100%!important;
+    }
+    .chatgpt-search-suggestion-box a{
+        width: 100%!important;
+      }
+      .chatgpt-answer-output{
+        padding: 10px!important;
+      }
+  }
+  @media only screen and (max-width: 412px){
+
+  .chatgpt-search-suggestion-box{
+    display: none;
+  }
+}
